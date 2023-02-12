@@ -1,5 +1,7 @@
 # NestJS Typescript template for Cyclic
 
+Having the nest project in a subfolder is a key to making it work on Cyclic.
+
 ## Maintenance
 
 ### Keep upstream up-to-date
