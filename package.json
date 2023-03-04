@@ -5,6 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "preinstall": "node -e \"JSON.parse(process.env.npm_config_argv)?.original?.[0] === 'add' && (console.log('\\x1b[31m' +'\\nYou\\'re on root, install packages only from the \\'nest\\' dir!\\n') ||  process.exit(-1))\"",
     "install": "cd nest && yarn install",
     "start": "cd nest && yarn start",
     "build": "cd nest && yarn build"
