@@ -1,9 +1,9 @@
 {
-  "name": "nest-typescript-starter",
-  "private": true,
+  "name": "nest-typescript-starter-for-cyclic",
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "Nest TypeScript starter repository for Cyclic",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",

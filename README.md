@@ -1,3 +1,25 @@
+# NestJS Typescript template for Cyclic
+
+[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
+
+Having the nest project in a subfolder is key to making it work on Cyclic.
+
+## Maintenance
+
+### Keep upstream up-to-date and rebase main
+
+```sh
+git checkout upstream
+git remote add upstream git@github.com:nestjs/typescript-starter.git # Only the first time
+git pull upstream master
+git checkout main
+git pull
+git rebase upstream
+git push --force
+```
+
+## Nest
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
